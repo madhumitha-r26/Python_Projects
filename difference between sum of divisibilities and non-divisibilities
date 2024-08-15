@@ -1,0 +1,19 @@
+def differenceofSum(m,n):
+    
+    s=0
+    q=0
+    
+    for i in range (1,20+1):
+        if (i%4==0):
+            s+=i
+    print("Sum of numbers divisible by 4:",s)
+    
+    for j in range (1,20+1):
+        if (j%4!=0):
+            q+=j
+    print("Sum of numbers not divisible by 4:",q)
+    
+    d=q-s
+    print("Difference:",d)
+   
+differenceofSum(4,20)
